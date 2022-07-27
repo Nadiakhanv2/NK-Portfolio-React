@@ -1,15 +1,24 @@
-import React from 'react'
+import React from "react";
+// import logo from "./public/logo.png"
 
 function Navbar() {
   return (
     <div>
-      <nav class="navbar text-dark">
-        <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1 ms-5">Navbar</span>
+      <nav className="navbar bg-light">
+        <div className="container">
+          <a className="navbar-brand" href="#">
+            
+            {/* <img
+              src={logo}
+              alt=""
+              width="60"
+              height="24"
+            /> */}
+          </a>
         </div>
       </nav>
     </div>
   );
 }
 
-export default Navbar
+export default Navbar;
