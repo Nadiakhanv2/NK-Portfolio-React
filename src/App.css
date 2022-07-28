@@ -152,3 +152,16 @@
   color: rgb(30, 28, 28);
   line-height: 1.8;
 }
+.personal-info{
+  flex: 0 0 60%;
+  max-width: 60%;
+  /* background-color: rgb(203, 131, 156); */
+}
+.skills{
+  flex: 0 0 40%;
+  max-width: 40%;
+  /* background-color: rgb(124, 91, 103); */
+}
+.info-item{
+  flex: 0 0 60%;
+}
