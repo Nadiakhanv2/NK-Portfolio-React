@@ -54,6 +54,17 @@
 
 .home .home-img img {
 height: 400px;
+}
+.home-img::after{
+  content: '';
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  right: 20px;
+  /* transform: translate(20px, -40px); */
+  bottom: -40px;
+  border-bottom: 10px solid rgb(203, 131, 156);
+  border-right: 10px solid rgb(203, 131, 156);
 
 }
 .home {
@@ -80,6 +91,7 @@ text-decoration: none;
 display: inline-block;
 white-space: nowrap;
 transition: all 0.3s ease;
+border: none;
  } 
  .btn-blog:hover{
   transform: scale(1.05);
