@@ -12,15 +12,15 @@ const Home = () => {
             <h3 className="heloo fs-2" >
               Hello , my name is <span className="name">Nadya Khan</span>
             </h3>
-            <h3 className="my-profession fs-3 my-3">
+            <h3 className="my-profession fs-3 mt-3 mb-4">
               I' m a <span className="typing">Front end web developer</span>
             </h3>
-            <p className="fs-5 mb-4">
+            <p className="fs-5 mb-5">
               I'm a web developer with a passion for building beautiful,
               functional websites. I'm currently working as a freelancer, but
               I'm always looking for new opportunities to learn and grow.
             </p>
-            <a href="" className="btn-blog hire-me">
+            <a href="" className="btn-blog hire-me mt-3">
               Hire Me
             </a>
           </div>
