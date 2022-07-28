@@ -53,6 +53,8 @@
 
 
 .home .home-img img {
+  margin: auto;
+  border-radius: 5px;
 height: 400px;
 }
 .home-img::after{
@@ -60,11 +62,23 @@ height: 400px;
   position: absolute;
   height: 80px;
   width: 80px;
-  right: 20px;
+  right: 8%;
   /* transform: translate(20px, -40px); */
-  bottom: -40px;
+  bottom: 20%;
   border-bottom: 10px solid rgb(203, 131, 156);
   border-right: 10px solid rgb(203, 131, 156);
+
+}
+.home-img::before{
+  content: '';
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  top: 13%;
+  /* transform: translate(20px, -40px); */
+  left: 66%;
+  border-top: 10px solid rgb(203, 131, 156);
+  border-left: 10px solid rgb(203, 131, 156);
 
 }
 .home {
