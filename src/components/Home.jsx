@@ -5,7 +5,7 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <div className="home section">
+      <div className="home section py-5">
       <div className="container-h container-fluid">
         <div className="row">
           <div className="col-7 home-info p-5 my-5">
