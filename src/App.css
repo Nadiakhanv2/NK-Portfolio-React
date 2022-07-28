@@ -36,78 +36,119 @@
     transform: rotate(360deg);
   }
 }
-/* home section */
-/* .section{
-  background: var(--bg-black-900);
-  min-height: 100vh;
-  display: flex;
-  position: fixed;
-  left: 270px;
-  padding: 0 30px;
-  top: 0;
-  right: 0;
-  z-index: 0;
-  opacity: 1;
-} */
 
-
+/* home section styling */
 
 .home .home-img img {
   margin: auto;
   border-radius: 5px;
-height: 400px;
+  height: 400px;
 }
-.home-img::after{
-  content: '';
+.home-img::after {
+  content: "";
   position: absolute;
   height: 80px;
   width: 80px;
   right: 8%;
-  /* transform: translate(20px, -40px); */
   bottom: 20%;
   border-bottom: 10px solid rgb(203, 131, 156);
   border-right: 10px solid rgb(203, 131, 156);
-
 }
-.home-img::before{
-  content: '';
+.home-img::before {
+  content: "";
   position: absolute;
   height: 80px;
   width: 80px;
   top: 13%;
-  /* transform: translate(20px, -40px); */
   left: 66%;
   border-top: 10px solid rgb(203, 131, 156);
   border-left: 10px solid rgb(203, 131, 156);
-
 }
 .home {
   min-height: 100vh;
   display: flex;
   color: var(--text-black-900);
 }
-.name{
+.name {
   font-weight: 700;
   color: rgb(203, 131, 156);
-   font-family:'Times New Roman', Times, cursive;
+  font-family: "Times New Roman", Times, cursive;
 }
 
-.typing{
+.typing {
   color: rgb(203, 131, 156);
 }
-.btn-blog{
-font-size: 16px;
+.btn-blog {
+  font-size: 16px;
   background-color: rgb(203, 131, 156);
   color: white;
-border-radius: 40px;
-padding: 12px 13px;
-text-decoration: none;
-display: inline-block;
-white-space: nowrap;
-transition: all 0.3s ease;
-border: none;
- } 
- .btn-blog:hover{
+  border-radius: 40px;
+  padding: 12px 13px;
+  text-decoration: none;
+  display: inline-block;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  border: none;
+}
+.btn-blog:hover {
   transform: scale(1.05);
   color: white;
- }
+}
+
+/* about section styling  */
+
+.section-title {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 60px;
+  /* background-color: rgb(203, 131, 156); */
+}
+.section-title h2 {
+  font-size: 3.05rem;
+  color: rgb(30, 28, 28);
+  font-weight: 700;
+  position: relative;
+}
+.section-title h2::before {
+  content: "";
+  height: 4px;
+  width: 50px;
+  background-color: rgb(203, 131, 156);
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.section-title h2::after {
+  content: "";
+  height: 4px;
+  width: 25px;
+  background-color: rgb(203, 131, 156);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+}
+.about .about-content{
+  flex: 0 0 100%;
+  max-width: 100%;
+  /* background-color: rgb(203, 131, 156); for check */
+}
+.about .about-content .about-text{
+  flex: 0 0 100%;
+  max-width: 100%;
+  /* background-color: rgb(203, 131, 156); */
+}
+.about .about-content .about-text h3{
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: rgb(30, 28, 28);
+}
+.about .about-content .about-text h3 span{
+  color: rgb(203, 131, 156);
+}
+.about .about-content .about-text p{
+  font-size: 16px;
+  color: rgb(30, 28, 28);
+  line-height: 1.8;
+}
