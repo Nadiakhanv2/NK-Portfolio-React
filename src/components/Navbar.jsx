@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar bg-light">
         <div className="container">
           <a className="navbar-brand" href="#">
-            
+            ome
             {/* <img
               src={logo}
               alt=""
