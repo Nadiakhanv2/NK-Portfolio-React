@@ -28,6 +28,54 @@ const About = () => {
               </div>
             </div>
           </div>
+          <div className="row px-5">
+            <div className="personal-info px-5 mt-4">
+              <div className="row">
+                <div className="info-item">
+                  <p>
+                    Birthday : <span> 26 Sep, 1999</span>
+                  </p>
+                </div>
+                <div className="info-item">
+                  <p>
+                    Age : <span> 22</span>
+                  </p>
+                </div>
+                <div className="info-item">
+                  <p>
+                    Website : <span> www.domain.com</span>
+                  </p>
+                </div>
+                <div className="info-item">
+                  <p>
+                    Email : <span> nadiakhan1337@gmail.com</span>
+                  </p>
+                </div>
+                <div className="info-item">
+                  <p>
+                    Degree : <span>CS</span>
+                  </p>
+                </div>
+                <div className="info-item">
+                  <p>
+                    Phone : <span> 0302 9569126</span>
+                  </p>
+                </div>
+
+                <div className="info-item">
+                  <p>
+                    City : <span> Multan</span>
+                  </p>
+                </div>
+                <div className="info-item">
+                  <p>
+                    Freelance : <span> Learner</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="skills px-5 mt-4">Skills</div>
+          </div>
         </div>
       </div>
     </section>
