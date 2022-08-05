@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
@@ -144,19 +144,192 @@ const About = () => {
             <div className="education px-5">
               <div className="title">
                 <h3>Education</h3>
+                <div className="row">
+                  <div className="timeline-box">
+                    <div className="timeline shadow-dark mt-3">
+                      {/* ==== timeline item ==== */}
+                      <div className="timeline-item">
+                        <div className="circle-dot"></div>
+                        <h3 className="timeline-date">
+                          <i className="bi bi-calendar2-heart-fill"></i>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="currentColor"
+                            class="bi bi-calendar2-heart-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5Zm-2 4v-1c0-.276.244-.5.545-.5h10.91c.3 0 .545.224.545.5v1c0 .276-.244.5-.546.5H2.545C2.245 5 2 4.776 2 4.5Zm6 3.493c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+                          </svg>
+                          <span>2013 - 2015</span>
+                        </h3>
+                        <h4 className="timeline-title">
+                          Master in Computer Science
+                        </h4>
+                        <p className="timeline-description">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Donec euismod, nisl eget consectetur
+                          consectetur, nisi nisl consectetur nisi nisl
+                          consectetur nisi nisl consectetur nisi nisl
+                        </p>
+                      </div>
+                      {/* ==== timeline item ==== */}
+                      <div className="timeline-item">
+                        <div className="circle-dot"></div>
+                        <h3 className="timeline-date">
+                          <i class="bi bi-calendar2-heart-fill"></i>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="currentColor"
+                            class="bi bi-calendar2-heart-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5Zm-2 4v-1c0-.276.244-.5.545-.5h10.91c.3 0 .545.224.545.5v1c0 .276-.244.5-.546.5H2.545C2.245 5 2 4.776 2 4.5Zm6 3.493c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+                          </svg>
+                          <span>2013 - 2015</span>
+                        </h3>
+                        <h4 className="timeline-title">
+                          Master in Computer Science
+                        </h4>
+                        <p className="timeline-description">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Donec euismod, nisl eget consectetur
+                          consectetur, nisi nisl consectetur nisi nisl
+                          consectetur nisi nisl consectetur nisi nisl
+                        </p>
+                      </div>
+                      {/* ==== timeline item ==== */}
+                      <div className="timeline-item">
+                        <div className="circle-dot"></div>
+                        <h3 className="timeline-date">
+                          <i class="bi bi-calendar2-heart-fill"></i>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="currentColor"
+                            class="bi bi-calendar2-heart-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5Zm-2 4v-1c0-.276.244-.5.545-.5h10.91c.3 0 .545.224.545.5v1c0 .276-.244.5-.546.5H2.545C2.245 5 2 4.776 2 4.5Zm6 3.493c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+                          </svg>
+                          <span>2013 - 2015</span>
+                        </h3>
+                        <h4 className="timeline-title">
+                          Master in Computer Science
+                        </h4>
+                        <p className="timeline-description">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Donec euismod, nisl eget consectetur
+                          consectetur, nisi nisl consectetur nisi nisl
+                          consectetur nisi nisl consectetur nisi nisl
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="experience px-5">
               <div className="title">
                 <h3>Experience</h3>
+                <div className="row">
+                  <div className="timeline-box">
+                    <div className="timeline shadow-dark mt-3">
+                      {/* ==== timeline item ==== */}
+                      <div className="timeline-item">
+                        <div className="circle-dot"></div>
+                        <h3 className="timeline-date">
+                          <i className="bi bi-calendar2-heart-fill"></i>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="currentColor"
+                            class="bi bi-calendar2-heart-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5Zm-2 4v-1c0-.276.244-.5.545-.5h10.91c.3 0 .545.224.545.5v1c0 .276-.244.5-.546.5H2.545C2.245 5 2 4.776 2 4.5Zm6 3.493c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+                          </svg>
+                          <span>2013 - 2015</span>
+                        </h3>
+                        <h4 className="timeline-title">
+                          Master in Computer Science
+                        </h4>
+                        <p className="timeline-description">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Donec euismod, nisl eget consectetur
+                          consectetur, nisi nisl consectetur nisi nisl
+                          consectetur nisi nisl consectetur nisi nisl
+                        </p>
+                      </div>
+                      {/* ==== timeline item ==== */}
+                      <div className="timeline-item">
+                        <div className="circle-dot"></div>
+                        <h3 className="timeline-date">
+                          <i class="bi bi-calendar2-heart-fill"></i>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="currentColor"
+                            class="bi bi-calendar2-heart-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5Zm-2 4v-1c0-.276.244-.5.545-.5h10.91c.3 0 .545.224.545.5v1c0 .276-.244.5-.546.5H2.545C2.245 5 2 4.776 2 4.5Zm6 3.493c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+                          </svg>
+                          <span>2013 - 2015</span>
+                        </h3>
+                        <h4 className="timeline-title">
+                          Master in Computer Science
+                        </h4>
+                        <p className="timeline-description">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Donec euismod, nisl eget consectetur
+                          consectetur, nisi nisl consectetur nisi nisl
+                          consectetur nisi nisl consectetur nisi nisl
+                        </p>
+                      </div>
+                      {/* ==== timeline item ==== */}
+                      <div className="timeline-item">
+                        <div className="circle-dot"></div>
+                        <h3 className="timeline-date">
+                          <i class="bi bi-calendar2-heart-fill"></i>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="currentColor"
+                            class="bi bi-calendar2-heart-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5Zm-2 4v-1c0-.276.244-.5.545-.5h10.91c.3 0 .545.224.545.5v1c0 .276-.244.5-.546.5H2.545C2.245 5 2 4.776 2 4.5Zm6 3.493c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+                          </svg>
+                          <span>2013 - 2015</span>
+                        </h3>
+                        <h4 className="timeline-title">
+                          Master in Computer Science
+                        </h4>
+                        <p className="timeline-description">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Donec euismod, nisl eget consectetur
+                          consectetur, nisi nisl consectetur nisi nisl
+                          consectetur nisi nisl consectetur nisi nisl
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
     </section>
   );
-}
+};
 
-export default About
+export default About;
