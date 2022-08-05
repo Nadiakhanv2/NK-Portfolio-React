@@ -225,9 +225,81 @@ position: relative;
 .experience{
   flex: 0 0 50%;
   max-width: 50%;
-  margin-top: 30px;
+  margin-top: 50px;
   /* background-color: rgb(203, 131, 156);  */
 }
 /* .experience{
   background-color: rosybrown;
 } */
+h3 .title{
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(30, 28, 28);
+  margin-bottom: 30px;
+}
+.timeline-box{
+  flex: 0 0 100%;
+  max-width: 100%;
+   /* background-color: rgb(203, 131, 156);   */
+}
+.timeline{
+  padding: 30px 15px;
+  /* background-color: rgb(241, 235, 237);   */
+  background-color: rgb(252, 243, 226);
+  border: 1px solid rgb(239, 235, 227);
+border-radius: 10px;
+width: 100%;
+position: relative;
+}
+.shadow-dark{
+  box-shadow: 0px 0px 20px rgba(48, 46, 77, 0.15);
+}
+.timeline .timeline-item{
+  position: relative;
+  padding-left: 37px;
+  padding-bottom: 50px;
+}
+.timeline .timeline-item:last-child{
+  padding-bottom: 0;
+}
+.timeline .timeline-item::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 7px;
+  width: 2px;
+  height: 100%;
+  background-color: rgb(203, 131, 156);
+  border-radius: 10px;
+}
+.timeline .circle-dot{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: rgb(203, 131, 156);
+}
+.timeline .timeline-date{
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  color: #4b4d53;
+}
+.timeline .timeline-date .bi{
+  margin-right: 5px;
+}
+.timeline .timeline-title{
+  font-weight: 700;
+  font-size: 18px;
+margin-bottom: 15px;
+text-transform: capitalize;
+  color: rgb(30, 28, 28);
+}
+.timeline .timeline-text{
+  font-size: 16px;
+  color: rgb(30, 28, 28);
+  line-height: 1.8;
+  text-align: justify;
+}
