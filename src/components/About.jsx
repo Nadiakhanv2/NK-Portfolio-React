@@ -36,7 +36,7 @@ const About = () => {
                     Birthday : <span> 26 Sep, 1999</span>
                   </p>
                 </div>
-                <div className="info-item">
+                <div className="info-item ">
                   <p>
                     Age : <span> 22</span>
                   </p>
@@ -73,8 +73,85 @@ const About = () => {
                   </p>
                 </div>
               </div>
+              <div className="row">
+                <div className="buttons px-5 mt-4">
+                  <a href="/" className="btn-blog">
+                    Download CV
+                  </a>
+                  <a href="/contact" className="btn-blog hire-me">
+                    Hire Me
+                  </a>
+                </div>
+              </div>
             </div>
-            <div className="skills px-5 mt-4">Skills</div>
+
+            <div className="skills p-3 mt-4">
+              <div className="row">
+                <div className="skill-item px-4">
+                  <h5>CSS</h5>
+                  <div className="progress-bar">
+                    <div
+                      className="progress-bar-fill"
+                      style={{ width: "76%" }}
+                    ></div>
+                  </div>
+                  <div className="skill-percent">76%</div>
+                </div>
+                <div className="skill-item px-4">
+                  <h5>JS</h5>
+                  <div className="progress-bar">
+                    <div
+                      className="progress-bar-fill"
+                      style={{ width: "86%" }}
+                    ></div>
+                  </div>
+                  <div className="skill-percent">86%</div>
+                </div>
+                <div className="skill-item px-4">
+                  <h5>HTML</h5>
+                  <div className="progress-bar">
+                    <div
+                      className="progress-bar-fill"
+                      style={{ width: "96%" }}
+                    ></div>
+                  </div>
+                  <div className="skill-percent">96%</div>
+                </div>
+                <div className="skill-item px-4">
+                  <h5>BOOTSTRAP</h5>
+                  <div className="progress-bar">
+                    <div
+                      className="progress-bar-fill"
+                      style={{ width: "76%" }}
+                    ></div>
+                  </div>
+                  <div className="skill-percent ">76%</div>
+                </div>
+                <div className="skill-item px-4">
+                  <h5>PHP</h5>
+                  <div className="progress-bar">
+                    <div
+                      className="progress-bar-fill"
+                      style={{ width: "66%" }}
+                    ></div>
+                  </div>
+                  <div className="skill-percent">66%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="education px-5">
+              <div className="title">
+                <h3>Education</h3>
+              </div>
+            </div>
+            <div className="experience px-5">
+              <div className="title">
+                <h3>Experience</h3>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
