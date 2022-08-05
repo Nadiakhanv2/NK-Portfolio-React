@@ -164,4 +164,70 @@
 }
 .info-item{
   flex: 0 0 60%;
+  max-width: 60%;
+  /* background-color: rgb(203, 131, 156);  */
 }
+.personal-info .info-item p{
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 0;
+  color: rgb(30, 28, 28);
+border-bottom: 1px solid rgb(203, 131, 156);
+}
+.personal-info .info-item p span{
+  color: rgb(203, 131, 156);
+  font-weight: 400;
+  margin-left: 4px;
+  display: inline-block;
+}
+.personal-info .buttons .btn-blog{
+  margin-right: 15px;
+}
+.skills .skill-item{
+  flex: 0 0 100%;
+  max-width: 100%;
+   /* background-color: rgb(203, 131, 156);  */
+}
+.skills .skill-item h5{
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(30, 28, 28);
+  /* margin-bottom: 15px; */
+  line-height: 40px;
+  text-transform: capitalize;
+}
+.skills .skill-item .progress-bar{
+  width: 100%;
+  background-color: rgb(146, 137, 140);  
+height: 7px;
+border-radius: 4px;
+position: relative;
+}
+.skills .skill-item{
+  margin-bottom: 25px;
+}
+.skills .skill-item .progress-bar .progress-bar-fill{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 4px;
+  background-color: rgb(203, 131, 156);  
+}
+.skill-percent{
+  position: absolute;
+  right: 120px;
+  /* top: 0px; */
+  font-weight: 600;
+  color: rgb(30, 28, 28);
+}
+.education ,
+.experience{
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 30px;
+  /* background-color: rgb(203, 131, 156);  */
+}
+/* .experience{
+  background-color: rosybrown;
+} */
