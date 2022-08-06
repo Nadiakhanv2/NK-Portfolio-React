@@ -1,4 +1,5 @@
 import './App.css';
+import Contact from './components/Contact';
 // import About from './components/About';
 // import Home from './components/Home';
 import Navbar from './components/Navbar';
@@ -13,7 +14,8 @@ function App() {
       <hr />
       <About/> */}
       {/* <Portfolio/> */}
-      <Services/>
+      {/* <Services/> */}
+      <Contact/>
     </div>
   );
 }
