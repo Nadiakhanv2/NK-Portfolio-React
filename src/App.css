@@ -536,10 +536,10 @@ margin-bottom: 0!important;
     padding: 17px 25px!important;
 }
 
- .nav-link-primary {
-    /* color: #423f3f !important;
-    border-bottom: 2px solid #fff !important; */
-}
+ /* .nav-link-primary {
+    color: #423f3f !important;
+    border-bottom: 2px solid #fff !important;
+} */
 .active-primary {
     border-bottom: 2px solid  rgb(203, 131, 156);
     color:  rgb(203, 131, 156)!important;
