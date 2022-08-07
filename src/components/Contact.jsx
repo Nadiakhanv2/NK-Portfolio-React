@@ -69,9 +69,38 @@ const Contact = () => {
         <div className="row">
           <div className="contactForm px-5">
             <div className="row">
-              {/* <div className="formItem px-5 col-6">
-                <div className="formGroup"></div>
-              </div> */}
+              <div className="formItem px-5 col-6">
+                <div className="formGroup">
+                  <input
+                    type="text"
+                    className="form-control"
+                    placeholder="Name"
+                  />
+                </div>
+              </div>
+              <div className="formItem px-5 col-6">
+                <div className="formGroup">
+                  <input
+                    type="email"
+                    className="form-control"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="formItem px-5 col-12">
+                <div className="formGroup">
+                  <textarea name="" id="" className="form-control" placeholder="Message"></textarea>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="formItem px-5 col-12">
+                <div className="formGroup">
+                  <button type="submit" className="btn-blog">Send Message</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
