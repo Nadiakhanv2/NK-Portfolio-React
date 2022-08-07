@@ -6,8 +6,7 @@ function Navbar() {
     <div>
       <nav className="navbar bg-light">
         <div className="container">
-          <a className="navbar-brand" href="#">
-            {/* home */}
+          <a className="navbar-brand" href="/">
             About
             {/* <img
               src={logo}
