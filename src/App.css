@@ -422,3 +422,125 @@ font-size: 16px;
   padding: 0 50px;
 }
 
+/* portfolio */
+
+.portfolio .portfolio-heading{
+flex: 0 0 100%;
+max-width: 100%;
+margin-bottom: 40px;
+}
+.portfolio .portfolio-heading h2{
+  color: #686a6e;
+font-weight: 500;
+}
+.portfolio .portfolio-item{
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 30px;
+}
+.portfolio .portfolio-item-inner{
+  border: 6px solid rgb(239, 235, 227);
+border-radius: 10px;
+overflow: hidden;
+cursor: pointer;
+}
+.portfolio .portfolio-item-inner .portfolio-img img{
+  width: 100%;
+  /* height: 100%; */
+  /* object-fit: cover; */
+display: block;
+}
+/* navbar */
+
+.header-primary {
+    box-shadow: 0.1em 0.1em 0.2em 0em #5568f122 !important;
+    max-height: fit-content !important;
+}
+.navbar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+margin-bottom: 0!important;
+    margin-top: 0!important;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.plx-navbar {
+    padding-left: 0;
+}
+.navbar-brand {
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    padding-bottom: 0.3125rem;
+    padding-top: 0.3125rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.text-blog {
+  color: rgb(203, 131, 156);
+
+}
+.blog-clr{
+  color: rgb(203, 131, 156);
+}
+.img-fluid {
+    height: auto;
+    max-width: 100%;
+}
+.collapse:not(.show) {
+    display: none;
+}
+.navbar-collapse {
+    align-items: center;
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+/* .me-auto {
+    margin-right: auto!important;
+}
+.pt-0 {
+    padding-top: 0!important;
+}
+.pb-0 {
+    padding-bottom: 0!important;
+} */
+.nav-item {
+    margin: 0!important;
+    padding: 0!important;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-link, .nav-link:hover {
+    font-size: large;
+    font-weight: 400;
+}
+.nav-link {
+    border-bottom: 2px solid #fff;
+    color: #423f3f!important;
+    font-family: Inter,sans-serif!important;
+    margin-top: 0;
+    margin: 0!important;
+    padding: 17px 25px!important;
+}
+
+ .nav-link-primary {
+    /* color: #423f3f !important;
+    border-bottom: 2px solid #fff !important; */
+}
+.active-primary {
+    border-bottom: 2px solid  rgb(203, 131, 156);
+    color:  rgb(203, 131, 156)!important;
+}
