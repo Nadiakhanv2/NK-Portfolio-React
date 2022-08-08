@@ -20,7 +20,7 @@ const Home = () => {
               functional websites. I'm currently working as a freelancer, but
               I'm always looking for new opportunities to learn and grow.
             </p>
-            <a href="" className="btn-blog hire-me mt-3">
+            <a href="/" className="btn-blog hire-me mt-3">
               Hire Me
             </a>
           </div>
