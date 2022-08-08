@@ -282,10 +282,10 @@ position: relative;
   background-color: rgb(203, 131, 156);
 }
 .timeline .timeline-date{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   margin-bottom: 12px;
-  color: #4b4d53;
+  color: #2a2d37;
 }
 .timeline .timeline-date .bi{
   margin-right: 5px;
@@ -540,6 +540,44 @@ margin-bottom: 0!important;
     margin: 0!important;
     padding: 17px 25px!important;
 }
+.navbar-toggler {
+    border-radius: 0.2vw;
+    padding: 2px 5px;
+}
+.navbar-toggler {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    padding: 0.25rem 0.75rem;
+    transition: box-shadow .15s ease-in-out;
+}
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,.1);
+    color: rgba(0,0,0,.55);
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+.navbar-toggler-icon {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    height: 1.5em;
+    vertical-align: middle;
+    width: 1.5em;
+}
+.small, small {
+    font-size: .875em;
+}
 
  /* .nav-link-primary {
     color: #423f3f !important;
@@ -548,4 +586,38 @@ margin-bottom: 0!important;
 .active-primary {
     border-bottom: 2px solid  rgb(203, 131, 156);
     color:  rgb(203, 131, 156)!important;
+}
+@media (max-width:1199px) {
+  .about .about-content .personal-info .info-item p span{
+    display: block;
+     margin-left: 0;
+  }
+}
+@media (max-width:991px) {
+  .home .home-info{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .home .home-img{
+    display: none;
+  }
+  .portfolio .portfolio-item,
+  .contact .contact-infoItem,
+  .service .service-item{
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width:767px){
+  .education,
+  .experience,
+  .skills,
+  .personal-info,
+  .portfolio .portfolio-item,
+  .contact .contact-infoItem,
+  .contact .contactForm .col-6,
+  .service .service-item{
+   flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
