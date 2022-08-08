@@ -1,22 +1,40 @@
 import './App.css';
-// import Contact from './components/Contact';
-// import About from './components/About';
-// import Home from './components/Home';
+import Contact from './components/Contact';
+import About from './components/About';
+import logo from "./logo.png";
+import Home from './components/Home';
 import Navbar from './components/Navbar';
-// import Services from './components/Services';
+import Services from './components/Services';
 import Portfolio from './components/Portfolio';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 
 function App() {
   return (
+    <>
     <div className="App">
-      <Navbar />
-      {/* <Home />
-      <hr />
-      <About/> */}
-      <Portfolio/>
-      {/* <Services/> */}
-      {/* <Contact/> */}
-    </div>
+      <Router>
+          <Navbar logo={ logo} />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
+          <Route exact path="/portfolio">
+            <Portfolio />
+          </Route>
+          <Route exact path="/services">
+            <Services />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
+      </Router>
+      </div>
+      </>
   );
 }
 
