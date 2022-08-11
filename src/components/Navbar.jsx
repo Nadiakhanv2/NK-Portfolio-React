@@ -80,7 +80,51 @@ function Navbar(props) {
                   Services
                 </Link>
               </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-link-primary"
+                  aria-controls="pallets"
+                  aria-expanded="false"
+                  href="/#"
+                >
+                  <i
+                    class="fa fa-circle text-primary my-0 py-0"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+              </li>
             </ul>
+            <div className="d-flex">
+              <div
+                className="bg-primary rounded-circle mx-2"
+                style={{ height: "30px", width: "30px" }}
+              ></div>
+
+              <div
+                className="bg-secondary rounded-circle mx-2"
+                style={{ height: "30px", width: "30px" }}
+              ></div>
+
+              <div
+                className="bg-info rounded-circle mx-2"
+                style={{ height: "30px", width: "30px" }}
+              ></div>
+
+              <div
+                className="bg-danger rounded-circle mx-2"
+                style={{ height: "30px", width: "30px" }}
+              ></div>
+
+              <div
+                className="bg-warning rounded-circle mx-2"
+                style={{ height: "30px", width: "30px" }}
+              ></div>
+
+              <div
+                className="bg-success rounded-circle mx-2"
+                style={{ height: "30px", width: "30px" }}
+              ></div>
+            </div>
           </div>
         </div>
       </nav>
